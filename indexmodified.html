@@ -3,11 +3,21 @@
 <head>
   <meta charset="UTF-8">  <!--contain metadata-->
   <meta name="viewport" content="width=device-width"> <!--for same views in all platforms-->
-  <link rel="stylesheet" type="text/css" href="indexmodified.css">
+  <link rel="stylesheet" type="text/css" href="style/indexmodified.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="icofont/icofont.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap" rel="stylesheet">
-  <title>IndoShoppers</title>
+  <title>Urban Wings</title>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $(".hamburger_btn").click(function(){
+        $(this).toggleClass("active");
+        $(".menu").toggleClass("active");
+      });
+    });
+  </script>
 </head>
 <body> 
 
@@ -25,12 +35,28 @@
   <nav class="light-red">
     <ul class="main-nav">
       <li class="nav-zone2">
-        <a href="" id="dropdown">
-          <div class="first"></div>
-          <div class="second"></div>
-          <div class="third"></div>
-        </a>
-        <a href="" id="logo"><img src="images/logomodified.png"></a>
+        <div class="wrapper">
+          <div class="container">
+            <div class="hamburger_btn">
+              <div class="one"></div>
+              <div class="two"></div>
+              <div class="three"></div>
+            </div>
+            <div class="menu">
+              <ul>
+                <button id="menuwelcome">Welcome</button>
+                <button id="textmenu">Shop by Category</button>
+                <li><a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/clothes.html" target="_blank">Clothes</a></li>
+                <li><a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/footwear.html" target="_blank">Footwear</a></li>
+                <li><a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/groceries.html" target="_blank">Groceries</a></li>
+                <li><a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/electronics.html" target="_blank">Electronics gadgets</a></li>
+                <li><a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/cosmetics.html" target="_blank">Cosmetics</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <a href="" id="logo"><h1>Urban Wings</h1></a>
         <input type="text" name="Search" placeholder="Search products and more" id="input-search" class="border"><button id="button" class="border"><i class="fa fa-search fa-lg"></i>Search</button>
         <a href="" id="signin" class="font">Sign In<i class="fa fa-user space fa-lg" aria-hidden="true"></i></a>
         <a href="" id="cart" class="font">Cart<i class="fa fa-shopping-cart space fa-lg"></i></a>
@@ -41,15 +67,17 @@
 
 <!--Conatiner 1-->
   <div class="container1">
+    <img src="images/feather.jpg">
     <section>
-    <img src="images/logomodified.png" class="center-logo">
-      <h3 class="tagline">Stop thinking, Start searching !</h3>
+    <i class="fa fa-feather-alt fa-10x" style="animation-fill-mode: both;animation-duration: 1250ms;animation-delay: 550ms;animation-iteration-count: 1;opacity: 1;animation-name: feather;"></i>
+      <h3 class="tagline" style="animation-fill-mode: both;animation-duration: 1250ms;animation-delay: 850ms;animation-iteration-count: 1;opacity: 1;animation-name: tagline;">Urban Wings</h3>
+      <h4 class="tagline2" style="animation-fill-mode: both;animation-duration: 1250ms;animation-delay: 1100ms;animation-iteration-count: 1;opacity: 1;animation-name: tagline;">Give wings to your flings...</h4>
     </section>
   </div>
   <!--<hr id="hr-left">
-  <hr id="hr-right">-->
+  <hr id="hr-right">
   <div class="buffer1"></div>
-  <div class="buffer2"></div>
+  <div class="buffer2"></div>-->
 
 <!--Container 2-->
 <!-- Slideshow container -->
@@ -60,7 +88,7 @@
                 <div class="caption">
                     <h1>Winter Collection 2020</h1>
                     <p>Be exclusive, Be Devine, Be yourself.</p>
-                    <a href="">Shop Now</a>
+                    <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/clothes.html" target="_blank">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -69,7 +97,7 @@
                 <div class="caption">
                     <h1>Electronic Gadgets</h1>
                     <p>Simple Solutions for Complex Connections.</p>
-                    <a href="">Shop Now</a>
+                    <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/electronics.html" target="_blank">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -78,7 +106,7 @@
                 <div class="caption">
                     <h1>Cosmetics</h1>
                     <p>Get the skin you want to feel</p>
-                    <a href="">Shop Now</a>
+                    <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/cosmetics.html" target="_blank">Shop Now</a>
                 </div>
             </div>
         </div>
@@ -100,14 +128,14 @@
   <div class="inside3">
 
     <section class="left">
-      <h4>Extra Sweet Treat</h4>
+      <h4>Extra Sweet Treat<span>|</span></h4>
     </section>
     <section class="middle">
       <h2>Extra 10% off</h2>
       <h3>On top styles</h3>
     </section>
     <section class="right">
-      <h4>CODE : FLAT10</h4>
+      <h4><span>|</span>CODE : FLAT10</h4>
     </section>
   </div>
 </div>
@@ -117,46 +145,39 @@
   <!--Grid of 6-->
   <div class="grid-wrapper1">
     <!--block1-->
-    <div class="box box1">
+    <div class="box box1" onclick="pageRedirectClothes()">
       <div class="text">
         <h1>Clohtes</h1>
       </div>
       <img src="images/clothes.jpg">
-        </div>
+    </div>
     <!--block2-->
-    <div class="box box2">
+    <div class="box box2" onclick="pageRedirectFootwear()">
       <div class="text">
         <h1>Footwear</h1>
       </div>
       <img src="images/footwear.jpg">
     </div>
     <!--block3-->
-    <div class="box box3">
+    <div class="box box3" onclick="pageRedirectGroceries()">
       <div class="text">
         <h1>Groceries</h1>
       </div>
       <img src="images/groceries.jpg">
     </div>
     <!--block4-->
-    <div class="box box4">
+    <div class="box box4" onclick="pageRedirectElectronics()">
       <div class="text">
         <h1>Electronics</h1>
       </div>
       <img src="images/electronics.jpg">
     </div>
     <!--block5-->
-    <div class="box box5">
+    <div class="box box5" onclick="pageRedirectCosmetics()">
       <div class="text">
         <h1>Cosmetics</h1>
       </div>
       <img src="images/cosmetcis3.jpg">
-    </div>
-    <!--block6-->
-    <div class="box box6">
-      <div class="text">
-        <h1>Clothes</h1>
-      </div>
-      <img src="images/clothes.jpg">
     </div>
   </div>
 </div>
@@ -166,112 +187,85 @@
   <!--Grid of 6-->
   <div class="grid-wrapper2">
     <!--block1-->
-    <div class="box box7">
+    <div class="box box7" onclick="pageRedirectEbooks()">
       <div class="text">
         <h1>E-Books</h1>
       </div>
       <img src="images/ebooks.jpg">
         </div>
     <!--block2-->
-    <div class="box box8">
+    <div class="box box8" onclick="pageRedirectEnewspaper()">
       <div class="text">
         <h1>E-Newspaper</h1>
       </div>
       <img src="images/enewspaper.jpg">
     </div>
     <!--block3-->
-    <div class="box box9">
+    <div class="box box9" onclick="pageRedirectVideos()">
       <div class="text">
         <h1>Videos</h1>
       </div>
       <img src="images/video.jpg">
     </div>
     <!--block4-->
-    <div class="box box10">
+    <div class="box box10" onclick="pageRedirectPodcast()" target="_blank">
       <div class="text">
         <h1>Podcast</h1>
       </div>
       <img src="images/podcast.jpg">
   </div>
 </div>
+<hr id="footerhr">
+<a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/indexmodified.html"><button type="text" id="backtotop">Back to top</button></a> 
+<!--footer-->
+<div id="footer">
+  <div class="footeritems">
+    <!--column 1 -->
+    <div class="column">
+        <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/footer%20link/company/company.html" target="_blank"><h3>Company Name</h3></a>
+          <ul>
+            <li>Contact us</li>
+            <li>About Us</li>
+            <li>Careers</li>
+            <li>Press</li>
+            <li>Sell on Our Website</li>
+          </ul>
+      </div>
+      <!--column 2 -->
+      <div class="column">
+        <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/footer%20link/help/help.html" target="_blank"><h3>Help</h3></a>
+          <ul>
+            <li>Payments</li>
+            <li>Saved Cards</li>
+            <li>Shipping</li>
+            <li>Cancellation & Returns</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+        <!--column 3-->
+        <div class="column">
+          <a href="file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/footer%20link/misc/misc.html" target="_blank"><h3>Misc</h3></a>
+            <ul>
+              <li>Online Shopping</li>
+              <li>Affilation Program</li>
+              <li>Gift Cards</li>
+              <li>Subscription</li>
+              <li>Sitemap</li>
+            </ul>
+        </div>
+        <!--Icons column-->
+        <div class="column four">
+          <ul>
+              <i class="fab fa-facebook-square" style="font-size:56px;color:#4267B2"></i>
+              <i class="fab fa-youtube" aria-hidden="true" style="font-size:56px;color:#F80000"></i>
+              <i class="fab fa-instagram" style="font-size:56px;background: #d6249f;background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);-webkit-background-clip: text;-webkit-text-fill-color:transparent;"></i>
+              <i class="fab fa-twitter" style="font-size:56px;color:#1C9DEC"></i>
+            </ul>
+          </div>
+  </div>
+</div>
 
-<table class="footer" border="3"width="100%" style="background-color: grey; color: white; height: 350px" >
-<tr>
-    <td width="25">
-        <h3 align="center"; style="font-family:Permanent Marker,cursive"; draggable="true"><b>HELP</b></h3>
-        <ul>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Payments<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true" >Saved Cards<hr></li>    
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Shipping<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Cancellation & Returns<hr></li> <li style="font-family:Permanent Marker,cursive"; draggable="true">FAQ</li>    
-            
-        </ul>
-    </td>
-  
-        <td width="25">
-            <h3 align="center"; style="font-family:Permanent Marker,cursive"; draggable="true"><b>COMPANY NAME</b></h3>
-        <ul>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Contact Us<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">About Us<hr></li>    
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Careers<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Press<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Sell on our website</li>
-        </ul>
-    </td>
-    
-        <td width="25">
-        <h3 align="center"; style="font-family:Permanent Marker,cursive"; draggable="true"><b>MISC</b></h3>
-        <ul>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Online Shopping<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Affliate Program<hr></li>    
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Gift Card<hr></li>
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Subscription<hr></li>    
-        <li style="font-family:Permanent Marker,cursive"; draggable="true">Sitemap</li>    
-        </ul>
-    </td>
-   
-    <td width="25%">
-    <div class="boxes">    
-    <img src="images/faceb.jpg" width="25%">
-    <img src="images/ig.jpg" width="25%"> <br><br>
-    <img src="images/twi.jpg" width="25%">
-    <img src="images/li.jpg" width="25%">
-    </div>
-    </td>
-    </tr>    
-    
-    <tr>
-        
-        
-        <td width="25%">
-            <div class="boxes">
-        <img src="images/t1.PNG">
-        <h3 style="font-family:Permanent Marker,cursive"; draggable="true">TRACK YOUR ORDER</h3>
-            </div>
-        </td>
-        
-        <td width="25%">
-            <div class="boxes">
-        <img src="images/fc.PNG">
-        <h3 style="font-family:Permanent Marker,cursive"; draggable="true">FREE & EASY RETURNS</h3>
-            </div>
-        </td>    
-         
-        <td width="25%">
-        <div class="boxes">    
-        <img src="images/oc1.PNG">
-        <h3 style="font-family:Permanent Marker,cursive"; draggable="true">ONLINE CANCELLATION</h3>
-            </div>
-        </td>
-    </tr>    
-        
-        
-    
-    
-    
-    </table>
-
-<script type="text/javascript" src="indoshoppers.js"></script>
+<script type="text/javascript" src="js/indoshoppers.js"></script>
 
 </body>
 </html>

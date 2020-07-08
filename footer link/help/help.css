@@ -1,0 +1,63 @@
+/*------------------------------FAQ's----------------------------------*/
+.Faq {
+    width: 100%;
+    padding: 30px 0px 50px;
+    margin-top: 28px;
+}
+
+.Faq h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.Faq h3 {
+    text-align: center;
+}
+
+.contact {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 8px 60px;
+    display: inline-block;
+}
+
+#but {
+    background-color: #F8F9FA;
+    color: black;
+    font-size: 24px;
+    border-radius: 5px;
+    padding: 8px 0px;
+    display: inline-block;
+    border-width: 0px;
+}
+
+.contact:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*------------------------------Shipping----------------------------------*/
+.shipping {
+    width: 100%;
+    padding: 30px 0px 50px;
+    margin-top: 30px;
+}
+
+.shipping h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/*------------------------------try and buy----------------------------------*/
+.try {
+    width: 100%;
+    padding: 30px 0px 50px;
+    margin-top: 30px;
+}
+
+.try h2 {
+    padding-bottom: 20px;
+    text-align: center;
+}

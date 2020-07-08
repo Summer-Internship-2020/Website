@@ -1,0 +1,76 @@
+/*--------------------------Privacy Policy --------------------------*/
+.containerpolicy {
+    width: 95%;
+    padding: 10px 0px 30px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.containerpolicy h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/*-------------------------- Payment --------------------------*/
+
+.containerpayment {
+    width: 95%;
+    padding: 10px 0px 30px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.containerpayment h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*----------------------- Brand of Trust -----------------------*/
+.about {
+    height: 320px;
+    width: 95%;
+    padding: 30px 0px 50px;
+    margin-top: 14px;
+    margin-left: 30px;
+    background-color: crimson;
+}
+
+/*----------------------- Media Query --------------------------*/
+
+@media(min-width:992px) {}
+
+@media(min-width:768px) and (max-width:991px) {}
+
+@media(min-width:575px) and (max-width:767px) {
+    .about {
+        height: 720px;
+        width: 95%;
+        padding: 30px 0px 50px;
+        margin-top: 14px;
+        margin-left: 30px;
+        background-color: crimson;
+    }
+}
+
+@media(min-width:480px) and (max-width:574px) {
+    .about {
+        height: 720px;
+        width: 95%;
+        padding: 30px 0px 50px;
+        margin-top: 14px;
+        margin-left: 30px;
+        background-color: crimson;
+    }
+}
+
+@media(max-width:479px) {
+    .about {
+        height: 720px;
+        width: 95%;
+        padding: 30px 0px 50px;
+        margin-top: 14px;
+        margin-left: 30px;
+        background-color: crimson;
+    }
+}

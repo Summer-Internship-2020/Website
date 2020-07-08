@@ -93,3 +93,35 @@
 
   let timer=setInterval(autoPlay,4000);
 
+  function pageRedirectClothes() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/clothes.html";
+  }
+  function pageRedirectFootwear() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/footwear.html";
+  }
+  function pageRedirectGroceries() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/groceries.html";
+  }
+  function pageRedirectElectronics() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/electronics.html";
+  }
+  function pageRedirectCosmetics() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/cosmetics.html";
+  }
+  function pageRedirectClothes() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/clothes.html";
+  }
+  function pageRedirectEbooks() {
+    window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/ebooks.html"
+  }
+ function pageRedirectEnewspaper() {
+  window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/enewspaper.html"
+ }
+ function pageRedirectVideos() {
+  window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/videos.html"
+ }
+ function pageRedirectPodcast() {
+  window.location.href = "file:///Users/durgeshkumarmihsra/Desktop/Ecommerce/Website/podcast.html"
+ }
+
+

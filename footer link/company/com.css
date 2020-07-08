@@ -1,0 +1,155 @@
+/*----------------------- About us -----------------------*/
+.about{
+    height:960px;
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:44px;
+}
+.about h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about p{
+    font-size: 24px;
+    text-align: center;
+    
+}
+/*----------------------- contact us -----------------------*/
+.ourservices{
+    padding:100px 0px 60px;
+    height:450px;
+}
+.ourservices h1{
+    font-size:50px;
+    font-weight: bold;
+}
+.rowsetting {
+    margin:150px 0px;
+}
+.imgsetting{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+.fa-phone{
+    margin-top:25px;
+}
+.fa-envelope{
+    margin-top:24px;
+}
+.fa-comments-o{
+    margin-top:24px;
+}
+}
+.rowsetting h2{
+    margin-top: 20px;
+    font-weight:bold;
+    font-size:30px;
+}
+.rowsetting p{
+    padding:10px;
+    color:#6c757d !important;
+}
+
+.care{
+    background-color: crimson;
+    padding:30px 0px 50px;
+    text-align: center;
+}
+/*----------------------- OPen Positon -----------------------*/
+.photo h1{
+   padding-top: 11px;
+    font-size: 50px;
+    color:white;
+    font-weight: 600;
+}
+.photo p{
+    padding-top: 18px;
+    font-size: 25px;
+    color:white;
+}
+/*----------------------- career -----------------------*/
+.career{
+   
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:34px;
+}
+.career h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align:center;
+}
+.career p{
+    font-size: 24px;
+    text-align: center;
+}
+
+
+@media(min-width:992px){
+    
+}
+@media(min-width:768px) and (max-width:991px){
+ .about{
+    height:1100px;
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:44px;
+}
+}
+@media(min-width:575px) and (max-width:767px){
+    .about{
+    height:2020px;
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:44px;
+}
+    .photo p{
+    padding-top: 18px;
+    font-size: 23px;
+    color:white;
+}
+  .career h3{
+    font-size:25px;
+}
+}
+@media(min-width:480px) and (max-width:574px){
+      .about{
+    height:2060px;
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:44px;
+}
+    .photo p{
+    padding-top: 18px;
+    font-size: 21px;
+    color:white;
+}
+  .career h3{
+    font-size:25px;
+}
+    .ourservices{
+    padding:80px 0px 60px;
+    height:770px;
+}
+}
+@media(max-width:479px){
+    .about{
+    height:2390px;
+    width: 100%;
+    padding:60px 0px 50px;
+    margin-top:44px;
+}
+    .photo p{
+    padding-top: 18px;
+    font-size: 19px;
+    color:white;
+}
+  .career h3{
+    font-size:25px;
+}
+    .ourservices{
+    padding:80px 0px 60px;
+    height:770px;
+}
+}
